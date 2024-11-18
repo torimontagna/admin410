@@ -1,0 +1,59 @@
+/* Reset default browser styles for consistency */
+* {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in element width/height */
+}
+
+/* Body styling for background and layout */
+body {
+    font-family: Arial, sans-serif; /* Use a clean, professional font */
+    background: #1d1d35; /* Set a dark blue-gray background color */
+    color: white; /* Set text color to white for contrast */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    height: 100vh; /* Fill the full height of the viewport */
+    text-align: center; /* Center align all text */
+}
+/* Container styling for the main content box */
+.container {
+    background: #2b2b50; /* Slightly lighter background for contrast */
+    border-radius: 15px; /* Rounded corners for a modern look */
+    padding: 20px; /* Add padding inside the container */
+    width: 90%; /* Set responsive width for smaller screens */
+    max-width: 800px; /* Limit width on larger screens */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
+}
+
+/* Header styling for the main title */
+h1 {
+    font-size: 2.5rem; /* Large font size for emphasis */
+    margin-bottom: 15px; /* Add space below the header */
+    color: #ffd700; /* Use a gold color to draw attention */
+}
+/* Styling for the button */
+button {
+    background: #ff4757; /* Bright red for visibility */
+    border: none; /* Remove default button border */
+    border-radius: 20px; /* Rounded corners for a soft look */
+    color: white; /* White text for contrast */
+    padding: 10px 20px; /* Add padding for a comfortable size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 1rem; /* Set font size */
+    margin-top: 20px; /* Add space above the button */
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+/* Button hover effect */
+button:hover {
+    background: #ff6b81; /* Lighten the red when hovered */
+}
+/* Styling for the image */
+.container img {
+    width: 80%; /* Make the image responsive */
+    max-width: 300px; /* Limit maximum image width */
+    border-radius: 10px; /* Slightly round the image corners */
+    margin: 20px auto; /* Add space above and below the image, center it */
+    display: block; /* Ensure the image is centered */
+}
+
